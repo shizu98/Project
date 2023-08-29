@@ -1,0 +1,24 @@
+Function Main
+    Declare Integer a
+
+    Input a
+    Declare Integer b
+
+    Input b
+    Declare Integer c
+
+    Input c
+    If a>b
+        If a>c
+            Output a
+        Else
+            Output c
+        End
+    Else
+        If b>c
+            Output b
+        Else
+            Output c
+        End
+    End
+End
