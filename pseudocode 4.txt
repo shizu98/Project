@@ -1,0 +1,9 @@
+Function Main
+    Declare Integer R
+
+    Input R
+    Declare Integer A
+
+    Assign A = 3.14*R*R
+    Output "The Value of A"&A
+End

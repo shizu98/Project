@@ -1,0 +1,8 @@
+Function Main
+    Declare Integer x, y, z
+
+    Input x
+    Input y
+    Input z
+    Output x+y=z
+End

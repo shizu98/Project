@@ -1,0 +1,12 @@
+Function Main
+    Declare Integer hours
+
+    Input hours
+    Declare Integer rate
+
+    Input rate
+    Declare Integer pay
+
+    Assign pay = hours*rate
+    Output "THE VALUE OF pay"&pay
+End

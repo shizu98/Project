@@ -1,0 +1,12 @@
+Function Main
+    Declare Integer DISTANCE
+
+    Input DISTANCE
+    Declare Integer TIME
+
+    Input TIME
+    Declare Integer SPEED
+
+    Assign SPEED = DISTANCE/TIME
+    Output "the value of SPEED"&SPEED
+End

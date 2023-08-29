@@ -1,0 +1,10 @@
+Function Main
+    Declare Integer sum
+    Declare Integer a
+    Declare Integer b
+
+    Input a
+    Input b
+    Assign sum = a+b
+    Output sum
+End

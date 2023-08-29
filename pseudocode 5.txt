@@ -1,0 +1,13 @@
+Function Main
+    Declare Integer n
+
+    Input n
+    Declare Integer s
+
+    Assign s = N*N
+    Output "the value of S"&S
+    Declare Integer C
+
+    Assign C = s*N
+    Output "THE VALUE OF C"&C
+End

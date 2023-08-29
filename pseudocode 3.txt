@@ -1,0 +1,11 @@
+Function Main
+    Declare Integer a, b, greatest
+
+    Input a
+    Input b
+    If a>b
+        Output "a is greatest"
+    Else
+        Output "b is greatest"
+    End
+End
