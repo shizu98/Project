@@ -1,0 +1,14 @@
+Function Main
+    Declare Integer average
+    Declare Integer sum
+    Declare Integer a
+    Declare Integer b
+    Declare Integer c
+
+    Input a
+    Input b
+    Input c
+    Assign sum = a+b+c
+    Assign average = a+b+c/3
+    Output sum
+End
