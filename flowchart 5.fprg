@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CH.ABUBAKER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-03 07:57:38 PM"/>
+        <attribute name="created" value="Q0guQUJVQkFLRVI7Q0hBQlVCQUtFUi1QQzsyMDIzLTA5LTAzOzA3OjMzOjI4IFBNOzI5NDg="/>
+        <attribute name="edited" value="Q0guQUJVQkFLRVI7Q0hBQlVCQUtFUi1QQzsyMDIzLTA5LTAzOzA3OjU3OjM4IFBNOzE7MzA2Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, greatest" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;a is greatest&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;b is greatest&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CH.ABUBAKER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-03 08:22:21 PM"/>
+        <attribute name="created" value="Q0guQUJVQkFLRVI7Q0hBQlVCQUtFUi1QQzsyMDIzLTA5LTAzOzA4OjA4OjUyIFBNOzI5NDg="/>
+        <attribute name="edited" value="Q0guQUJVQkFLRVI7Q0hBQlVCQUtFUi1QQzsyMDIzLTA5LTAzOzA4OjIyOjIxIFBNOzE7MzA0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="N*N"/>
+            <output expression="&quot;the value of S&quot;&amp;S" newline="True"/>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <assign variable="C" expression="s*N"/>
+            <output expression="&quot;THE VALUE OF C&quot;&amp;C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

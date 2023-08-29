@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CH.ABUBAKER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-03 08:26:49 PM"/>
+        <attribute name="created" value="Q0guQUJVQkFLRVI7Q0hBQlVCQUtFUi1QQzsyMDIzLTA5LTAzOzA4OjIzOjE1IFBNOzI5NDQ="/>
+        <attribute name="edited" value="Q0guQUJVQkFLRVI7Q0hBQlVCQUtFUi1QQzsyMDIzLTA5LTAzOzA4OjI2OjQ5IFBNOzE7MzA2Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DISTANCE" type="Integer" array="False" size=""/>
+            <input variable="DISTANCE"/>
+            <declare name="TIME" type="Integer" array="False" size=""/>
+            <input variable="TIME"/>
+            <declare name="SPEED" type="Integer" array="False" size=""/>
+            <assign variable="SPEED" expression="DISTANCE/TIME"/>
+            <output expression="&quot;the value of SPEED&quot;&amp;SPEED" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
